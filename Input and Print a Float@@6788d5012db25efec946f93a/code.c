@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main()
-float a;
-printf("enter a number")
-scanf(%d,&a)
+float a;{
+    a = 3.14;
+    printf("%d",a);
+}
