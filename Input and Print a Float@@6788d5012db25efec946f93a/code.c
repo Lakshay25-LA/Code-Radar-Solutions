@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-float a;{
-    a = 3.14;
+float ass{
+    ass = 3.14;
     printf("%d",a);
 }
