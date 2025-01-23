@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main() {
     float a;
-    printf("%d",a);
-    scanf("%d",&a);
-    a = 3.14;
-    printf("You entered: %d\n",a);
+    printf("enter a number: ");
+    scanf("%f",&a);
+    printf("you entered: %d",a);
     return 0;
 }
 
