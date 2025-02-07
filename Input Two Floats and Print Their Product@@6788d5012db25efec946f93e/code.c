@@ -7,7 +7,7 @@ int main() {
     scanf("%f %f", &a, &b);
 
     // Print their product
-    printf("%.2f\n", a * b);
+    printf("%f/n", a * b);
 
     return 0;
 }
