@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include math.h
+
 int main() {
     float area,r;
     scanf("%f",&r);
