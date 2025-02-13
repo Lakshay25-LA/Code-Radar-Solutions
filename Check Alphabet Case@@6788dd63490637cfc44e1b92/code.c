@@ -6,8 +6,7 @@ int main () {
     if (lol >= 'A'&& lol <= 'Z' ){
         printf("Uppercase",ch);
     }
-    else if {
-        if (lol >= 'a' && lol <= 'z') {
+    else if (lol >= 'a' && lol <= 'z') {
             printf("Lowercase",ch);
         }
         else {
