@@ -4,7 +4,7 @@ int main() {
     char ch;
 
     // Input from the user
-    printf("Enter a character: ");
+  
     scanf("%c", &ch);
 
     // Check if uppercase
