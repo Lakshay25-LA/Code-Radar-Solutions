@@ -1,18 +1,50 @@
-// Your code here...
 #include <stdio.h>
-int main() {
-    int a,b,c,max;
 
-    if(a >= b && a >= c) {
-        max = a;
-    } if else (b>=a && b>=c){
-    max = b;
-    }else {
-       max = c;
+int main() {
+    int num1, num2, num3, max;
+
+    // Input three numbers
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    // Finding the maximum
+    if (num1 >= num2 && num1 >= num3) {
+        max = num1;
+    } 
+    else if (num2 >= num1 && num2 >= num3) {
+        max = num2;
+    } 
+    else {
+        max = num3;
     }
-    printf("output the maximum number");
-    return 0
+
+    // Output the maximum number
+    printf("The maximum number is: %d\n", max);
+
+    return 0;
 }
-    
-    
+#include <stdio.h>
+
+int main() {
+    int num1, num2, num3, max;
+
+    // Input three numbers
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    // Finding the maximum
+    if (num1 >= num2 && num1 >= num3) {
+        max = num1;
+    } 
+    else if (num2 >= num1 && num2 >= num3) {
+        max = num2;
+    } 
+    else {
+        max = num3;
+    }
+
+    // Output the maximum number
+    printf("The maximum number is: %d\n", max);
+
+    return 0;
 }
