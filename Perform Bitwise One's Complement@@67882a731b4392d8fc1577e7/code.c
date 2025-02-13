@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a,&b);
-    printf("%d\n", a ~ b);
+    int a;
+    scanf("%d",&a);
+    int result = ~a;
+    printf("%d\n",result);
     return 0;
+  
 }
