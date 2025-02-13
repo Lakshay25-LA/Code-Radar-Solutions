@@ -5,11 +5,9 @@ int main() {
 
     if(a >= b && a >= c) {
         max = a;
-    }
-    if else (b>=a && b>=c){
+    } if else (b>=a && b>=c){
     max = b;
-    }
-    else {
+    }else {
         printf("output the maximum number");
     }
     return 0
