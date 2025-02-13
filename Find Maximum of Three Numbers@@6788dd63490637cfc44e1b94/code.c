@@ -8,8 +8,9 @@ int main() {
     } if else (b>=a && b>=c){
     max = b;
     }else {
-        printf("output the maximum number");
+       max = c;
     }
+    printf("output the maximum number");
     return 0
 }
     
