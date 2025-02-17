@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main()  {
-    char R,G,Y,light;
-    scanf("%c",&R,&G,&Y);
+    char light;
+    scanf("%c",&light);
 
     if(light == R){
         printf("Stop");
