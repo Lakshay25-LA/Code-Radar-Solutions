@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main() {
    int day;
-   scanf("%d",day);
+   scanf("%d",&day);
 
    if(day == 1){
     printf("Monday");
@@ -16,7 +16,7 @@ int main() {
    else if(day == 4){
     printf("Thursday");
    }
-   else if(day == 5) {
+   else if(day == 5){
     printf("Friday");
    }
    else if(day == 6){
