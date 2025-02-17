@@ -5,7 +5,7 @@ int main() {
 
     scanf("%d %d", &n1, &n2);
 
-    if (n2 !=0 && n1 % n2 == 0){
+    if (n2 ! = 0 && n1 % n2 == 0) {
         printtf("Yes");
     }
     else {
