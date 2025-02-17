@@ -1,14 +1,22 @@
-// Your code here...
 #include <stdio.h>
-int main () {
-    int a;
-    scanf("%d",&a);
 
-    if (a > 1 && a % 1 == 0) {
+int isPrime(int n) {
+    if (n <= 1) return 0; // 0 and 1 are not prime
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0; // If divisible, not prime
+    }
+    return 1; // Otherwise, prime
+}
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (isPrime(num))
         printf("Prime");
-    }
-    else {
+    else
         printf("Not Prime");
-    }
+
     return 0;
 }
