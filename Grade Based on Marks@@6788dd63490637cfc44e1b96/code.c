@@ -1,22 +1,22 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-int a;
+int a,B,C,D,E,F;
 scanf("%d",&a);
 if (a >= 90) {
-    printf("A");
+    printf("%s",A);
 }
 if else (a >= 80 && a < 90) {
-    printf("B")
+    printf("%s",B)
 }
 if else (a >= 70 && a < 80){
-    printf("C");
+    printf("%s",C);
 }
 if else(a >= 60 && a < 70){
-    printf("D");
+    printf("%s",D);
 }
 else {
-    printf("F");
+    printf("%s", F);
 }
 return 0; 
 }
