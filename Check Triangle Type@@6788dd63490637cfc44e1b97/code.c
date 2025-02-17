@@ -6,10 +6,10 @@ int main() {
 
     scanf("%d %d %d", &s1, &s2, &s3);
 
-    if (a == b && b == c){
+    if (s1 == s2 && s2 == s3){
         printf("Equilateral");
     }
-    else if (a == b || b == c || a == c) {
+    else if (s1 == s2 || s2 == s3 || s1 == s3) {
         printf("Isosceles");
         
     }
