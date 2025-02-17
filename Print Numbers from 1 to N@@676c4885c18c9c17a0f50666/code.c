@@ -7,7 +7,7 @@ int main() {
         printf("%d",i);
     
     if (i < N){
-        printf(" ");
+        printf("");
     }
     }
     return 0;
