@@ -7,11 +7,11 @@ int main()  {
     if(light == 'R'){
         printf("Stop");
     }
-    else if(light == 'G'){
+    else if(light == 'Y'){
         printf("Slow Down");
 
     }
-    else if(light == 'Y'){
+    else if(light == 'G'){
         printf("Go");
     }
     else {
