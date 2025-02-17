@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main()  {
-    char R,G,Y,light;
+    char light;
     scanf("%c",&R,&G,&Y);
 
     if(light == R){
