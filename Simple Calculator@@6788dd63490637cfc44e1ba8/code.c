@@ -20,13 +20,13 @@ int main() {
             break;
         case '/':
             if (num2 == 0) {
-                printf("Error\n"); // Handling division by zero
+                printf("error\n"); // Handling division by zero
             } else {
                 printf("%d\n", num1 / num2);
             }
             break;
         default:
-            printf("Error\n"); // Invalid operator case
+            printf("error\n"); // Invalid operator case
     }
 
     return 0;
