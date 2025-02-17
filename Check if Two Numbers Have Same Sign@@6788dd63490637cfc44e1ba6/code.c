@@ -1,19 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int a,b;
+    scanf("%d %d",&a,&b);
 
-
-    printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
-
-   
-    if (haveSameSign(num1, num2)) {
+    if((a>0 && b>0) || (a<0 && b<0)) {
         printf("Same Sign");
     }
-     else {
+    else {
         printf("Different Sign");
     }
-
     return 0;
 }
