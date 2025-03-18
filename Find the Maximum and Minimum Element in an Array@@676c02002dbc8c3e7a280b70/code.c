@@ -18,7 +18,7 @@ int main(){
             smallest=arr[i];
         }
     }
-    printf("%d %d",&smallest,&largest);
+    printf("%d%d",&smallest,&largest);
 
 
 }
